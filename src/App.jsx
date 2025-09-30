@@ -14,6 +14,7 @@ function App() {
       <h1>Explore React Form</h1>
 
       <SimpleFrom></SimpleFrom>
+      <h2>Action From</h2>
 
       <FromAction></FromAction>
      
