@@ -10,7 +10,11 @@ const handleSubmit=(e)=>{
 
 }
 const handlePasswordOnChenge=e=>{
-    console.log(e.target.value)
+    console.log(e.target.value);
+    setPassword(e.target.value);
+
+
+    
 }
 
     return (
