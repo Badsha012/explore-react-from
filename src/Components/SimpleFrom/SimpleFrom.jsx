@@ -4,6 +4,8 @@ const SimpleFrom = () => {
 const handleSubmit=(e)=>{
     e.preventDefault();
     console.log(e.target.name.value);
+
+    console.log(e.target.email.value)
 }
 
     return (
@@ -15,7 +17,14 @@ const handleSubmit=(e)=>{
 
                 <br></br>
 
-                <input type="submit" value="submit" />
+   
+                <input type="email" name='email' placeholder='your email' />
+
+                <br></br>
+                <input type='submit' value='submit'></input>
+
+              
+         
 
 
             </form>
